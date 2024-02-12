@@ -203,7 +203,7 @@ function draw() {
         slider3.value(row[2]);
         slider4.value(row[3]);
        // draw_one_frame(cur_words, row[0], row[1], row[2], row[3], curSlice);currentTime()
-       draw_one_frame(cur_words, row[0], row[1], row[2], row[3], song.currentTime());
+      draw_one_frame(cur_words, row[0], row[1], row[2], row[3], song.currentTime());
       }
     }
   }
